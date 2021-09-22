@@ -1,0 +1,399 @@
+﻿  Source.cpp
+C:\tensorflow_AVX2\include\tensorflow/c/c_api.h(953): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C
+  C:\tensorflow_AVX2\include\tensorflow/c/c_api.h(909): note: see declaration of 'TF_WhileParams'
+C:\tensorflow_AVX2\include\google/protobuf/map_type_handler.h(493): warning C4800: 'google::protobuf::uint64': forcing value to bool 'true' or 'false' (performance warning)
+C:\tensorflow_AVX2\include\tensorflow/core/framework/attr_value.pb.h(687): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\tensorflow_AVX2\include\tensorflow/core/framework/node_def.pb.h(97): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\tensorflow_AVX2\include\tensorflow/core/framework/function.pb.h(317): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\tensorflow_AVX2\include\tensorflow/core/framework/function.pb.h(349): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\tensorflow_AVX2\include\tensorflow/core/framework/function.pb.h(604): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\tensorflow_AVX2\include\tensorflow/core/framework/function.pb.h(607): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\tensorflow_AVX2\include\tensorflow/core/framework/function.pb.h(638): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\tensorflow_AVX2\include\tensorflow/core/framework/function.pb.h(641): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\tensorflow_AVX2\include\tensorflow/core/framework/allocator.h(377): warning C4800: 'tensorflow::uint32': forcing value to bool 'true' or 'false' (performance warning)
+C:\tensorflow_AVX2\include\tensorflow/core/framework/allocator.h(379): warning C4800: 'tensorflow::uint32': forcing value to bool 'true' or 'false' (performance warning)
+c:\tensorflow_avx2\include\unsupported\eigen\cxx11\src/Tensor/Tensor.h(76): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+  c:\tensorflow_avx2\include\unsupported\eigen\cxx11\src/Tensor/TensorMap.h(43): note: see reference to class template instantiation 'Eigen::Tensor<T,1,1,int>' being compiled
+          with
+          [
+              T=float
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor_types.h(105): note: see reference to class template instantiation 'Eigen::TensorMap<Eigen::Tensor<T,1,1,int>,16,Eigen::MakePointer>' being compiled
+          with
+          [
+              T=float
+          ]
+  C:\tensorflow_AVX2\include\absl/strings/internal/cord_rep_ring.h(357): note: see reference to class template instantiation 'absl::lts_20210324::container_internal::internal_layout::LayoutImpl<std::tuple<absl::lts_20210324::cord_internal::CordRepRing::std::pos_type,absl::lts_20210324::cord_internal::CordRep *,absl::lts_20210324::cord_internal::CordRepRing::offset_type>,absl::lts_20210324::integer_sequence<std::T>,absl::lts_20210324::integer_sequence<T,0>>' being compiled
+          with
+          [
+              T=std::size_t
+          ]
+  c:\tensorflow_avx2\include\eigen\src/Core/NumTraits.h(243): note: see reference to class template instantiation 'Eigen::GenericNumTraits<double>' being compiled
+C:\tensorflow_AVX2\include\tensorflow/core/platform/protobuf.h(95): warning C4800: 'google::protobuf::uint8 *': forcing value to bool 'true' or 'false' (performance warning)
+C:\tensorflow_AVX2\include\tensorflow/core/framework/step_stats.pb.h(1180): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\tensorflow_AVX2\include\tensorflow/core/protobuf/cluster.pb.h(97): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\tensorflow_AVX2\include\tensorflow/core/protobuf/rewriter_config.pb.h(543): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\tensorflow_AVX2\include\tensorflow/core/protobuf/config.pb.h(1972): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\tensorflow_AVX2\include\tensorflow/core/protobuf/config.pb.h(3847): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\tensorflow_AVX2\include\tensorflow/core/protobuf/config.pb.h(3850): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\tensorflow_AVX2\include\tensorflow/core/protobuf/config.pb.h(3881): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\tensorflow_AVX2\include\tensorflow/core/protobuf/config.pb.h(3884): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+Source.cpp(81): warning C4244: 'argument': conversion from 'tensorflow::int64' to 'int', possible loss of data
+C:\tensorflow_AVX2\include\google/protobuf/map_field_inl.h(245): warning C4800: 'google::protobuf::Map<std::string,tensorflow::AttrValue>::std::size_type': forcing value to bool 'true' or 'false' (performance warning)
+  C:\tensorflow_AVX2\include\google/protobuf/map_field_inl.h(243): note: while compiling class template member function 'bool google::protobuf::internal::MapField<tensorflow::NameAttrList_AttrEntry_DoNotUse,std::string,tensorflow::AttrValue,google::protobuf::internal::WireFormatLite::TYPE_STRING,google::protobuf::internal::WireFormatLite::TYPE_MESSAGE,0>::DeleteMapValue(const google::protobuf::MapKey &)'
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/attr_value.pb.h(881): note: see reference to class template instantiation 'google::protobuf::internal::MapField<tensorflow::NameAttrList_AttrEntry_DoNotUse,std::string,tensorflow::AttrValue,google::protobuf::internal::WireFormatLite::TYPE_STRING,google::protobuf::internal::WireFormatLite::TYPE_MESSAGE,0>' being compiled
+C:\tensorflow_AVX2\include\google/protobuf/map_field_inl.h(245): warning C4800: 'google::protobuf::Map<std::string,std::string>::std::size_type': forcing value to bool 'true' or 'false' (performance warning)
+  C:\tensorflow_AVX2\include\google/protobuf/map_field_inl.h(243): note: while compiling class template member function 'bool google::protobuf::internal::MapField<tensorflow::FunctionDef_RetEntry_DoNotUse,std::string,std::string,google::protobuf::internal::WireFormatLite::TYPE_STRING,google::protobuf::internal::WireFormatLite::TYPE_STRING,0>::DeleteMapValue(const google::protobuf::MapKey &)'
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/function.pb.h(875): note: see reference to class template instantiation 'google::protobuf::internal::MapField<tensorflow::FunctionDef_RetEntry_DoNotUse,std::string,std::string,google::protobuf::internal::WireFormatLite::TYPE_STRING,google::protobuf::internal::WireFormatLite::TYPE_STRING,0>' being compiled
+C:\tensorflow_AVX2\include\google/protobuf/map_field_inl.h(245): warning C4800: 'google::protobuf::Map<google::protobuf::uint32,tensorflow::FunctionDef_ArgAttrs>::std::size_type': forcing value to bool 'true' or 'false' (performance warning)
+  C:\tensorflow_AVX2\include\google/protobuf/map_field_inl.h(243): note: while compiling class template member function 'bool google::protobuf::internal::MapField<tensorflow::FunctionDef_ArgAttrEntry_DoNotUse,google::protobuf::uint32,tensorflow::FunctionDef_ArgAttrs,google::protobuf::internal::WireFormatLite::TYPE_UINT32,google::protobuf::internal::WireFormatLite::TYPE_MESSAGE,0>::DeleteMapValue(const google::protobuf::MapKey &)'
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/function.pb.h(893): note: see reference to class template instantiation 'google::protobuf::internal::MapField<tensorflow::FunctionDef_ArgAttrEntry_DoNotUse,google::protobuf::uint32,tensorflow::FunctionDef_ArgAttrs,google::protobuf::internal::WireFormatLite::TYPE_UINT32,google::protobuf::internal::WireFormatLite::TYPE_MESSAGE,0>' being compiled
+C:\tensorflow_AVX2\include\google/protobuf/map_field_inl.h(245): warning C4800: 'google::protobuf::Map<google::protobuf::uint32,google::protobuf::uint32>::std::size_type': forcing value to bool 'true' or 'false' (performance warning)
+  C:\tensorflow_AVX2\include\google/protobuf/map_field_inl.h(243): note: while compiling class template member function 'bool google::protobuf::internal::MapField<tensorflow::FunctionDef_ResourceArgUniqueIdEntry_DoNotUse,google::protobuf::uint32,google::protobuf::uint32,google::protobuf::internal::WireFormatLite::TYPE_UINT32,google::protobuf::internal::WireFormatLite::TYPE_UINT32,0>::DeleteMapValue(const google::protobuf::MapKey &)'
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/function.pb.h(899): note: see reference to class template instantiation 'google::protobuf::internal::MapField<tensorflow::FunctionDef_ResourceArgUniqueIdEntry_DoNotUse,google::protobuf::uint32,google::protobuf::uint32,google::protobuf::internal::WireFormatLite::TYPE_UINT32,google::protobuf::internal::WireFormatLite::TYPE_UINT32,0>' being compiled
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=float
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=float
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(192): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<float>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=float
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=double
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=double
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(194): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<double>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=double
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::int32
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::int32
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(196): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::int32>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::int32
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::uint32
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::uint32
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(198): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::uint32>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::uint32
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::uint16
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::uint16
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(200): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::uint16>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::uint16
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::uint8
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::uint8
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(202): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::uint8>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::uint8
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::int16
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::int16
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(204): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::int16>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::int16
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::int8
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::int8
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(206): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::int8>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::int8
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::tstring
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::tstring
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(208): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::tstring>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::tstring
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::complex64
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::complex64
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(210): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::complex64>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::complex64
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::complex128
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::complex128
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(212): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::complex128>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::complex128
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::int64
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::int64
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(214): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::int64>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::int64
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::uint64
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::uint64
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(216): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::uint64>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::uint64
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=bool
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=bool
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(218): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<bool>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=bool
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::qint8
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::qint8
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(220): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::qint8>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::qint8
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::quint8
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::quint8
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(222): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::quint8>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::quint8
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::qint16
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::qint16
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(224): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::qint16>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::qint16
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::quint16
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::quint16
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(226): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::quint16>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::quint16
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::qint32
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::qint32
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(228): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::qint32>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::qint32
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::bfloat16
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::bfloat16
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(230): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::bfloat16>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::bfloat16
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=Eigen::half
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=Eigen::half
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(232): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<Eigen::half>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=Eigen::half
+          ]
+C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(996): warning C4624: 'tensorflow::Tensor::ValueAndTensorBuffer<T>': destructor was implicitly defined as deleted
+          with
+          [
+              T=tensorflow::ResourceHandle
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(1023): note: see reference to class template instantiation 'tensorflow::Tensor::ValueAndTensorBuffer<T>' being compiled
+          with
+          [
+              T=tensorflow::ResourceHandle
+          ]
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/tensor.h(234): note: see reference to function template instantiation 'tensorflow::Tensor::Tensor<tensorflow::ResourceHandle>(T,tensorflow::Tensor::host_scalar_tag)' being compiled
+          with
+          [
+              T=tensorflow::ResourceHandle
+          ]
+C:\tensorflow_AVX2\include\google/protobuf/map_field_inl.h(245): warning C4800: 'google::protobuf::Map<google::protobuf::uint32,std::string>::std::size_type': forcing value to bool 'true' or 'false' (performance warning)
+  C:\tensorflow_AVX2\include\google/protobuf/map_field_inl.h(243): note: while compiling class template member function 'bool google::protobuf::internal::MapField<tensorflow::DeviceStepStats_ThreadNamesEntry_DoNotUse,google::protobuf::uint32,std::string,google::protobuf::internal::WireFormatLite::TYPE_UINT32,google::protobuf::internal::WireFormatLite::TYPE_STRING,0>::DeleteMapValue(const google::protobuf::MapKey &)'
+  C:\tensorflow_AVX2\include\tensorflow/core/framework/step_stats.pb.h(1386): note: see reference to class template instantiation 'google::protobuf::internal::MapField<tensorflow::DeviceStepStats_ThreadNamesEntry_DoNotUse,google::protobuf::uint32,std::string,google::protobuf::internal::WireFormatLite::TYPE_UINT32,google::protobuf::internal::WireFormatLite::TYPE_STRING,0>' being compiled
+C:\tensorflow_AVX2\include\google/protobuf/map_field_inl.h(245): warning C4800: 'google::protobuf::Map<google::protobuf::int32,std::string>::std::size_type': forcing value to bool 'true' or 'false' (performance warning)
+  C:\tensorflow_AVX2\include\google/protobuf/map_field_inl.h(243): note: while compiling class template member function 'bool google::protobuf::internal::MapField<tensorflow::JobDef_TasksEntry_DoNotUse,google::protobuf::int32,std::string,google::protobuf::internal::WireFormatLite::TYPE_INT32,google::protobuf::internal::WireFormatLite::TYPE_STRING,0>::DeleteMapValue(const google::protobuf::MapKey &)'
+  C:\tensorflow_AVX2\include\tensorflow/core/protobuf/cluster.pb.h(290): note: see reference to class template instantiation 'google::protobuf::internal::MapField<tensorflow::JobDef_TasksEntry_DoNotUse,google::protobuf::int32,std::string,google::protobuf::internal::WireFormatLite::TYPE_INT32,google::protobuf::internal::WireFormatLite::TYPE_STRING,0>' being compiled
+C:\tensorflow_AVX2\include\google/protobuf/map_field_inl.h(245): warning C4800: 'google::protobuf::Map<std::string,google::protobuf::int32>::std::size_type': forcing value to bool 'true' or 'false' (performance warning)
+  C:\tensorflow_AVX2\include\google/protobuf/map_field_inl.h(243): note: while compiling class template member function 'bool google::protobuf::internal::MapField<tensorflow::ConfigProto_DeviceCountEntry_DoNotUse,std::string,google::protobuf::int32,google::protobuf::internal::WireFormatLite::TYPE_STRING,google::protobuf::internal::WireFormatLite::TYPE_INT32,0>::DeleteMapValue(const google::protobuf::MapKey &)'
+  C:\tensorflow_AVX2\include\tensorflow/core/protobuf/config.pb.h(2657): note: see reference to class template instantiation 'google::protobuf::internal::MapField<tensorflow::ConfigProto_DeviceCountEntry_DoNotUse,std::string,google::protobuf::int32,google::protobuf::internal::WireFormatLite::TYPE_STRING,google::protobuf::internal::WireFormatLite::TYPE_INT32,0>' being compiled
+  Generating code
+  481 of 491 functions (98.0%) were compiled, the rest were copied from previous compilation.
+    480 functions were new in current compilation
+    6 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Test_TensorFlow.vcxproj -> c:\users\marin_000\documents\visual studio 2015\Projects\Test_TensorFlow\x64\Release\Test_TensorFlow.exe
+  Test_TensorFlow.vcxproj -> c:\users\marin_000\documents\visual studio 2015\Projects\Test_TensorFlow\x64\Release\Test_TensorFlow.pdb (Full PDB)
