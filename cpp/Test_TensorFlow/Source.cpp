@@ -80,7 +80,8 @@ int main()
 	Tensor result = outputs[0];
 	cv::Mat imgPred(outputs[0].dim_size(1), outputs[0].dim_size(2), CV_32FC1, outputs[0].flat<float>().data());
 
-	imgPred = imgPred * 255;
+	//imgPred = imgPred * 255;
+	cv::normalize(imgPred, imgPred, 0, 255, cv::NORM_MINMAX, CV_8U);
 
 	cv::imshow("Mask predict", imgPred);
 	cv::waitKey();
