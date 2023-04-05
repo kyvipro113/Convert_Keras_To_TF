@@ -1,4 +1,4 @@
-// Append mask to image
+	// Append mask to image (Mask has 1 channel, Img has 3 channels BGR)
 	cv::cvtColor(image, image, cv::COLOR_RGB2BGR);
 	for (int i = 0; i < imgPred.rows; i++)
 	{
@@ -12,3 +12,16 @@
 			}
 		}
 	}
+	
+	// Append mask to image (Mask has 3 channels BGR, Img has 3 channels BGR)
+	for (int i = 0; i < result.rows; i++) {
+        for (int j = 0; j < result.cols; j++) {
+            if (result.at<Vec3b>(i,j)[0] == 255 &&
+                result.at<Vec3b>(i,j)[1] == 255 &&
+                result.at<Vec3b>(i,j)[2] == 255) {
+                img.at<Vec3b>(i,j)[0] = 0;
+                img.at<Vec3b>(i,j)[1] = 255;
+                img.at<Vec3b>(i,j)[2] = 0;
+            }
+        }
+    }
