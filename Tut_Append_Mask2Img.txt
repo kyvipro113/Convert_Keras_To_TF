@@ -1,0 +1,14 @@
+// Append mask to image
+	cv::cvtColor(image, image, cv::COLOR_RGB2BGR);
+	for (int i = 0; i < imgPred.rows; i++)
+	{
+		for (int j = 0; j < imgPred.cols; j++)
+		{
+			if (imgPred.at<uchar>(i, j) == 255)
+			{
+				image.at<cv::Vec3b>(i, j)[0] = 0;
+				image.at<cv::Vec3b>(i, j)[1] = 255;
+				image.at<cv::Vec3b>(i, j)[2] = 0;
+			}
+		}
+	}
